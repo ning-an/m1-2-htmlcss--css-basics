@@ -17,3 +17,45 @@ li {
 }
 
 /* ADD CSS BELOW */
+body {
+  margin: 50px;
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Bangers', cursive;
+  font-size: 30px;
+  margin: 10px;
+}
+
+h3 {
+  font-family: 'Bangers', cursive;
+  text-align: center;
+}
+
+.animal {
+  display: flex;
+  justify-content: flex-start;
+}
+.species {
+  list-style-type: none;
+  border: dashed #666;
+  background-color: #eeeeee;
+  padding: 20px;
+  margin: 10px;
+}
+
+.cat, .dog {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  height: 180px;
+  margin: 10px;
+}
