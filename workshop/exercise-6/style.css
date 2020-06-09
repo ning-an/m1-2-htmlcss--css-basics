@@ -19,23 +19,34 @@ li {
 /* ADD CSS BELOW */
 
 body {
+  margin: 1em;
+
 }
 
 h1,
 h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Bangers', cursive;
+  margin: 1em;
 }
 
 h1 {
-}
-
-h2 {
+  font-size: 48px;
 }
 
 .row {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .col {
+  list-style-type: none;
+  border: dashed black;
+  background-color: #dddddd;
+  padding: 10px;
 }
 
 .image {
+  height: 180px;
 }
